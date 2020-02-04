@@ -22,21 +22,27 @@ const Home = () => {
       <div className="charts">
         <div className="charts__block charts__line">
           <div className="charts__title-block">
-            <h2 className="charts__title-block--title">
+            <div className="charts__title-block--wrapper">
+              <h2 className="charts__title-block--title">
               Wavy Lines
             </h2>
-            <h4 className="main__title-block--subtitle">
-              Working Hours
-            </h4>
+              <h4 className="charts__title-block--subtitle">
+                Working Hours
+              </h4>
+            </div>
+            <div className="charts__title-block--wrapper">
+              <p className="charts__title-block--option">This week</p>
+            </div>
           </div>
-          <Line data={dataLine} legend={{display: 'none'}} />
+          <Line data={dataLine} legend={{display: false}}/>
         </div>
-        <div className="charts__block charts__pie">
-          <Doughnut data={dataPie} legend={{position: 'right'}} />
 
+        <div className="charts__block charts__pie">
+          <Doughnut data={dataPie} legend={{position: 'right'}} options={{cutoutPercentage: 80}}/>
         </div>
+
         <div className="charts__block charts__bar">
-          <HorizontalBar data={dataBar}/>
+          <HorizontalBar data={dataBar} legend={{display: false}}/>
         </div>
       </div>
     </div>

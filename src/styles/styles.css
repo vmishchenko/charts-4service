@@ -42,7 +42,7 @@ body {
 }
 .menu-desktop__title-text {
   margin: 0;
-  color: black;
+  color: white;
   font-size: 24px;
 }
 
@@ -112,13 +112,13 @@ body {
 }
 .main__title-block--title {
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   font-size: 18px;
   color: #37474f;
 }
 .main__title-block--subtitle {
   margin: 0;
-  font-size: 14px;
+  font-size: 13px;
   color: #78909c;
 }
 
@@ -137,6 +137,8 @@ body {
   margin-bottom: 50px;
 }
 .charts__title-block {
+  display: flex;
+  justify-content: space-between;
   margin-top: 30px;
   margin-left: 20px;
   padding-bottom: 30px;
@@ -144,14 +146,33 @@ body {
 }
 .charts__title-block--title {
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   font-size: 18px;
   color: #37474f;
 }
 .charts__title-block--subtitle {
   margin: 0;
-  font-size: 14px;
+  font-size: 13px;
   color: #78909c;
+}
+.charts__title-block--option {
+  margin-top: 11px;
+  margin-bottom: 4px;
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #37474f;
+}
+.charts__title-block--option:after {
+  content: "";
+  width: 12px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 3px;
+  cursor: pointer;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
 }
 .charts__line {
   min-height: 440px;
@@ -164,14 +185,25 @@ body {
   }
 }
 .charts__pie {
-  min-height: 190px;
   width: 300px;
+  height: max-content;
   margin-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.charts__pie > canvas {
+  background-image: url("../img/horse.png");
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: calc(50% - 43px);
 }
 @media (max-width: 919px) {
   .charts__pie {
     width: 100%;
     margin-bottom: 50px;
+  }
+  .charts__pie > canvas {
+    background-size: 150px;
   }
 }
 .charts__bar {

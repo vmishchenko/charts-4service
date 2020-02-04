@@ -2,7 +2,7 @@ const dataBar = {
   labels: ['Всего', 'Закрыто', 'В работе', 'Новый', 'Просрочен'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'Please, hire me!',
       backgroundColor: [
         'rgba(255, 135, 161, 0.3)',
         'rgba(95, 181, 239, 0.3)',

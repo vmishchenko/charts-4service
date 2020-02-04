@@ -6,7 +6,7 @@ import {
   Redirect
 } from "react-router-dom";
 
-import './styles.css';
+import './styles/styles.css';
 
 import MenuDesktop from "./ui/MenuDesktop";
 import MenuMobile from "./ui/MenuMobile";
