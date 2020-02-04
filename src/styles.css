@@ -158,8 +158,13 @@ body {
   width: 100%;
   min-width: 300px;
 }
+@media (max-width: 768px) {
+  .charts__line {
+    min-height: 330px;
+  }
+}
 .charts__pie {
-  height: 190px;
+  min-height: 190px;
   width: 300px;
   margin-right: 15px;
 }
