@@ -168,7 +168,7 @@ body {
   width: 300px;
   margin-right: 15px;
 }
-@media (max-width: 768px) {
+@media (max-width: 919px) {
   .charts__pie {
     width: 100%;
     margin-bottom: 50px;
