@@ -8,7 +8,6 @@ body {
   display: grid;
   grid-template-columns: 230px calc(100% - 230px);
   grid-template-rows: 1fr;
-  height: 100vh;
 }
 @media (max-width: 768px) {
   .app {
@@ -170,7 +169,7 @@ body {
   width: 12px;
   height: 8px;
   display: inline-block;
-  margin-left: 3px;
+  margin-left: 14px;
   cursor: pointer;
   background-image: url("../img/arrow.png");
   background-repeat: no-repeat;
@@ -198,18 +197,26 @@ body {
   background-size: 80px;
   background-position: calc(50% - 43px);
 }
-@media (max-width: 1199px) {
+@media (max-width: 1343px) {
   .charts__pie {
     width: 100%;
+    margin-right: 0;
     margin-bottom: 50px;
   }
   .charts__pie > canvas {
-    background-size: 130px;
+    background-size: 30%;
   }
 }
 .charts__bar {
   flex-grow: 1;
   width: 70%;
+}
+
+.soon {
+  color: #37474f;
+  align-self: center;
+  justify-self: center;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

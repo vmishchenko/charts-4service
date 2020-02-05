@@ -11,7 +11,7 @@ body {
   display: grid;
   grid-template-columns: 230px calc(100% - 230px);
   grid-template-rows: 1fr;
-  height: 100vh;
+
 
   @media (max-width: 768px) {
     display: block;
@@ -178,7 +178,7 @@ body {
         width: 12px;
         height: 8px;
         display: inline-block;
-        margin-left: 3px;
+        margin-left: 14px;
         cursor: pointer;
         background-image: url('../img/arrow.png');
         background-repeat: no-repeat;
@@ -209,12 +209,13 @@ body {
       background-position: calc(50% - 43px);
     }
 
-    @media (max-width: 1199px) {
+    @media (max-width: 1343px) {
       width: 100%;
+      margin-right: 0;
       margin-bottom: 50px;
 
       & > canvas {
-        background-size: 130px;
+        background-size: 30%;
       }
     }
   }
@@ -223,4 +224,11 @@ body {
     flex-grow: 1;
     width: 70%;
   }
+}
+
+.soon {
+  color: $base-dark-green;
+  align-self: center;
+  justify-self: center;
+  font-size: 30px;
 }
