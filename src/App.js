@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect
 } from "react-router-dom";
 
-import './styles.css';
+import './styles/styles.css';
 
 import MenuDesktop from "./ui/MenuDesktop";
 import MenuMobile from "./ui/MenuMobile";
