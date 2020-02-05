@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/charts-4service/static/css/main.15e048b7.chunk.css",
-    "main.js": "/charts-4service/static/js/main.ce9d603d.chunk.js",
-    "main.js.map": "/charts-4service/static/js/main.ce9d603d.chunk.js.map",
+    "main.css": "/charts-4service/static/css/main.b9b6b60b.chunk.css",
+    "main.js": "/charts-4service/static/js/main.173a1064.chunk.js",
+    "main.js.map": "/charts-4service/static/js/main.173a1064.chunk.js.map",
     "runtime-main.js": "/charts-4service/static/js/runtime-main.4f64ae97.js",
     "runtime-main.js.map": "/charts-4service/static/js/runtime-main.4f64ae97.js.map",
     "static/js/2.a7fc3dd4.chunk.js": "/charts-4service/static/js/2.a7fc3dd4.chunk.js",
     "static/js/2.a7fc3dd4.chunk.js.map": "/charts-4service/static/js/2.a7fc3dd4.chunk.js.map",
     "index.html": "/charts-4service/index.html",
-    "precache-manifest.68bcd42caa84971e414e6f9a10b9342f.js": "/charts-4service/precache-manifest.68bcd42caa84971e414e6f9a10b9342f.js",
+    "precache-manifest.bde5871bca851b3fc9d1e6be720ea1ee.js": "/charts-4service/precache-manifest.bde5871bca851b3fc9d1e6be720ea1ee.js",
     "service-worker.js": "/charts-4service/service-worker.js",
-    "static/css/main.15e048b7.chunk.css.map": "/charts-4service/static/css/main.15e048b7.chunk.css.map",
+    "static/css/main.b9b6b60b.chunk.css.map": "/charts-4service/static/css/main.b9b6b60b.chunk.css.map",
     "static/js/2.a7fc3dd4.chunk.js.LICENSE.txt": "/charts-4service/static/js/2.a7fc3dd4.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/charts-4service/static/media/horse.b1d24488.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4f64ae97.js",
     "static/js/2.a7fc3dd4.chunk.js",
-    "static/css/main.15e048b7.chunk.css",
-    "static/js/main.ce9d603d.chunk.js"
+    "static/css/main.b9b6b60b.chunk.css",
+    "static/js/main.173a1064.chunk.js"
   ]
 }
