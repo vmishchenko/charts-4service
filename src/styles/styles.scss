@@ -9,7 +9,7 @@ body {
 
 .app {
   display: grid;
-  grid-template-columns: 230px 1fr;
+  grid-template-columns: 230px calc(100% - 230px);
   grid-template-rows: 1fr;
   height: 100vh;
 
@@ -140,6 +140,7 @@ body {
   margin: auto;
 
   &__block {
+    position: relative;
     background-color: white;
     box-shadow: 0 0 10px 6px rgba(139,157,175,0.1);
 
@@ -208,17 +209,18 @@ body {
       background-position: calc(50% - 43px);
     }
 
-    @media (max-width: 919px) {
+    @media (max-width: 1199px) {
       width: 100%;
       margin-bottom: 50px;
 
       & > canvas {
-        background-size: 150px;
+        background-size: 130px;
       }
     }
   }
 
   &__bar {
     flex-grow: 1;
+    width: 70%;
   }
 }

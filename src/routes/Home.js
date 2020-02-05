@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-import {HorizontalBar, Line, Doughnut} from 'react-chartjs-2';
+import { HorizontalBar, Line, Doughnut} from 'react-chartjs-2';
 import dataPie from "../data/dataPie";
 import dataBar from "../data/dataBar";
 import dataLine from "../data/dataLine";
